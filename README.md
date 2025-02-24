@@ -5,7 +5,7 @@
 
 # Mini Project 2
 
-##Description
+## Description
 
 This project visualizes the top 200 universities in North America by rank. The data is loaded from a CSV file, and various graphs are created using Matplotlib to visually represent the data.
 
