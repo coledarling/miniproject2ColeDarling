@@ -25,7 +25,7 @@ python main.py
 
 ### Output
 
-This should create a bar graph within the charts folder, displaying the top 200 universities by rank.
+This should create a graph within the charts folder, displaying the top 200 universities by rank.
 
 ## Authors
 
