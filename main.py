@@ -30,10 +30,9 @@ plt.figure(figsize=(75, 50))
 plt.scatter(university['Rank'], university['Name'], color='skyblue', s=100)
 plt.title("Top 200 Universities in North America by Rank", fontsize=20)
 plt.xlabel("Rank", fontsize=15)
-plt.ylabel("Universities", fontsize=15)
+plt.ylabel("University", fontsize=15)
 plt.xticks(fontsize=12)
 plt.yticks(fontsize=10)
-plt.gca().invert_xaxis()
 plt.grid(axis='x', linestyle='--', alpha=0.7)
 
 #Saving the Plot
