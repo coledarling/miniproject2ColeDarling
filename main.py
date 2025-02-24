@@ -22,7 +22,15 @@ print(university.columns)
 #First Few Rows
 print(university.head())
 
-university.plot(kind="bar", x="University", y="Rank")
+#Making Rank a Column
+university.reset_index(inplace=True)
+
+#Plot of Top 200 Universities by Ranking
+university.plot(kind="bar", x="Name", y="Rank")
 plt.title("Universities in North America by Rank")
 plt.xlabel("University")
 plt.ylabel("Rank")
+
+#Saving the Plot
+plt.savefig("charts/UniversityRank.png")
+plt.show()
