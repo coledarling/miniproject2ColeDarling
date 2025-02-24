@@ -37,4 +37,4 @@ ex. Cole Darling
 
 * [matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html)
 * [kaggle](https://www.kaggle.com/datasets/puzanov/top-200-universities-in-north-america?resource=download)
-*[pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/04_plotting.html)
+* [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/04_plotting.html)
