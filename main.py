@@ -26,10 +26,15 @@ print(university.head())
 university.reset_index(inplace=True)
 
 #Plot of Top 200 Universities by Ranking
-university.plot(kind="bar", x="Name", y="Rank")
-plt.title("Universities in North America by Rank")
-plt.xlabel("University")
-plt.ylabel("Rank")
+plt.figure(figsize=(200, 200))
+ax = university.plot(kind="bar", x="Name", y="Rank", legend=False, color='skyblue')
+plt.title("Top 200 Universities in North America by Rank", fontsize=20)
+plt.xlabel("University", fontsize=15)
+plt.ylabel("Rank", fontsize=15)
+plt.xticks(rotation=45, fontsize=10, ha='right')
+plt.yticks(fontsize=10)
+plt.ylim(1, 200)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
 
 #Saving the Plot
 plt.savefig("charts/UniversityRank.png")
