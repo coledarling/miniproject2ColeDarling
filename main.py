@@ -6,7 +6,9 @@ I, Cole Darling, affirm that the work submitted for this assignment is entirely 
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
+#Charts Directory
 os.makedirs("charts", exist_ok=True)
 
 university = pd.read_csv("NorthAmericaUniversities.csv", encoding="ISO-8859-1", index_col=0)
