@@ -7,6 +7,24 @@ I, Cole Darling, affirm that the work submitted for this assignment is entirely 
 import pandas as pd
 import matplotlib.pyplot as plt
 
-university = pd.read_csv("NorthAmericaUniversities.csv", index_col=0)
+university = pd.read_csv("NorthAmericaUniversities.csv", encoding="ISO-8859-1", index_col=0)
 
+#Shape of the DataFrame
+print(university.shape)
 
+#Column Names
+print(university.columns)
+
+#First Few Rows
+print(university.head())
+
+university.plot(kind="bar", x="University", y="Rank")
+plt.title("Universities in North America by Rank")
+plt.xlabel("University")
+plt.ylabel("Rank")
+
+#Save the Plot
+if not os.path.exists("./charts"):
+    os.makedirs("./charts")
+plt.savefig("./charts/universityRank.png")
+plt.show()
