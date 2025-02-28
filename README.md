@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 More requirements is to download the dataset which can be found at https://www.kaggle.com/datasets/puzanov/top-200-universities-in-north-america?resource=download. 
 
-In order to download this dataset you will click on the link and then click the black download button that is right under the sign in option.
+In order to download this dataset you will click on the link and then click the black download button on the right hand side of the website that is right under the sign in option.
 
 
 ### Executing program
